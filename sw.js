@@ -1,10 +1,10 @@
 // sw.js
 const CACHE_NAME = 'workdays-cache-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/icon-128x128.png',
+    './',
+    './index.html',
+    './manifest.json',
+    './icon-128x128.png',
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'
 ];
