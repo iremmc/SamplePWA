@@ -35,7 +35,7 @@ self.addEventListener('activate', (event) => {
 });
 
 
-version = 7;
+version = 77;
 
 self.addEventListener('fetch', (event) => {
     event.respondWith(
