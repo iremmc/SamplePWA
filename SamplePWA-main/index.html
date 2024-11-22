@@ -57,6 +57,8 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="übung2.js"></script>
+    <script src="GeoLocation.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js').then(function(registration) {
@@ -93,6 +95,10 @@
           
           <audio controls></audio>
         </div>
-      </div>
+    </script>
+    </div>
+    <button id="askButton">Ask for location</button>
+
+<div id="target"></div>
 </body>
 </html>
